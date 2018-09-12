@@ -37,7 +37,6 @@ import static java.util.Collections.singletonList;
 public class DynamicSynonymPlugin extends Plugin implements AnalysisPlugin {
     private PluginComponent pluginComponent = new PluginComponent();
 
-    @Override
     public Collection<Object> createComponents(Client client,
                                                ClusterService clusterService,
                                                ThreadPool threadPool,
